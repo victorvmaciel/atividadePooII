@@ -1,19 +1,28 @@
 
 
-	.disciplina{
+	.disciplina1{
 	
 	position:relative;
 	width: 200px;
 	height: 200px;
-	background-color: blue;
+	background-color: #ADD8E6;
+	float: left;"
+	}
+	
+	.disciplina2{
+	
+	position:relative;
+	width: 200px;
+	height: 200px;
+	background-color: #40E0D0;
 	float: left;"
 	}
 	
 	.separador{
 		
 		position:relative;
-	width: 200px;
-	height: 200px;
+	width: 80px;
+	height: 80px;
 	background-color: withe;
 	float: left;"
 		
@@ -22,6 +31,11 @@
 	.principal{
 		
 	
+	}
+	
+	.rodape{
+	position: absolute;
+	bottom: 0;
 	}
 	
 	
