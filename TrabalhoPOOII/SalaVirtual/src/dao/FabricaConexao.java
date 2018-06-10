@@ -10,8 +10,8 @@ public class FabricaConexao {
 		
 		try {
 			
-			Class.forName("nome do banco");
-			conexao= java.sql.DriverManager.getConnection("banco");
+			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+			conexao= java.sql.DriverManager.getConnection("JdbcOdbc:SalaVirtual");
 			
 		}
 		catch (Exception e) {
