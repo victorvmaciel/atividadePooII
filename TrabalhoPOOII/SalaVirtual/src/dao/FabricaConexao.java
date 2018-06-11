@@ -8,10 +8,18 @@ public class FabricaConexao {
 	
 	public Connection fazConexao() {
 		
+		
+		
+		
+		String connectionURL= "jdbc:sqlserver://localhost:1433";
+		
 		try {
 			
-			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-			conexao= java.sql.DriverManager.getConnection("JdbcOdbc:SalaVirtual");
+			Class.forName("com.microsoft.sqlserver.jdbc.SQLSERVER");
+			conexao= java.sql.DriverManager.getConnection(connectionURL,"sa","123");
+			
+			
+			System.out.println("Conexão obitida com sucesso!");
 			
 		}
 		catch (Exception e) {

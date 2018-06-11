@@ -18,6 +18,8 @@ Aluno: <input type="text" name="aluno"> <br><br>
 
 </div>
 
+Matricula: <input type="text" name="matricula"> <br><br>
+
 <div>
 
 Disciplina: <input type="text" name="disciplina"> 
